@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:layout_gravity="center"
+    tools:context="com.myclass.myclass.getinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/pick"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@android:drawable/btn_star" />
+
+        <EditText
+            android:background="@drawable/rounded_corner_text"
+            android:elevation="10dp"
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="name"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="327dp" />
+
+        <EditText
+            android:background="@drawable/rounded_corner_text"
+            android:elevation="10dp"
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="47dp" />
+
+        <Spinner
+            android:background="@drawable/rounded_corner_text"
+            android:elevation="10dp"
+            android:id="@+id/year"
+            android:layout_width="273dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:entries="@array/year" />
+
+        <Spinner
+            android:background="@drawable/rounded_corner_text"
+            android:elevation="10dp"
+            android:id="@+id/batch"
+            android:layout_width="273dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:entries="@array/batch" />
+
+        <Spinner
+            android:background="@drawable/rounded_corner_text"
+            android:elevation="10dp"
+            android:layout_width="273dp"
+            android:entries="@array/subject"
+            android:id="@+id/subject"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/department"
+            android:background="@drawable/rounded_corner_text"
+            android:elevation="10dp"
+            android:layout_width="273dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:entries="@array/department" />
+
+        <Button
+            android:background="@drawable/rounded_corner_login"
+            android:elevation="10dp"
+            android:id="@+id/submit"
+            android:layout_width="273dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:text="submit" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

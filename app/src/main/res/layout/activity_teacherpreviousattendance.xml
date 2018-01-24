@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.myclass.myclass.teacherpreviousattendance">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <EditText
+                android:background="@drawable/rounded_corner_text"
+                android:elevation="10dp"
+                android:id="@+id/pickdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:hint="dd-mm-yyyy"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <Button
+                android:background="@drawable/rounded_corner_login"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/submit"
+                android:text="submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_marginVertical="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/list_attendance"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

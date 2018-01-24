@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MyClass</string>
+    <string-array name="department">
+        <item>Computer Science</item>
+        <item>Electronics</item>
+        <item>Electrical</item>
+        <item>Mechanical </item>
+        <item>Civil</item>
+        <item>Chemical</item>
+        <item>Mathematics</item>
+        <item>Metallurgy</item>
+        <item>Chemistry</item>
+    </string-array>
+    <string-array name="year">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+    </string-array>
+    <string-array name="batch">
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B4 </item>
+    </string-array>
+    <string-array name="subject">
+        <item>Intrusion Detection</item>
+        <item>data mining</item>
+    </string-array>
+    <string-array name="correctanswer">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string name="title_activity_student">Student</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_teacher">Teacher</string>
+    <string name="title_activity_teachereditquiz">teachereditquiz</string>
+</resources>

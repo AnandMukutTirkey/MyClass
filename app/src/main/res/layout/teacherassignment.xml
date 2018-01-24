@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:background="@drawable/rounded_corner_text"
+            android:id="@+id/resouces"
+            android:layout_marginTop="10dp"
+            android:inputType="date"
+            android:gravity="center"
+            android:text="RESOURCES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"/>
+
+        <ListView
+            android:layout_marginTop="10dp"
+            android:background="@color/background"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/uploads"
+            android:cacheColorHint="#00000000"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <Button
+            android:background="@drawable/rounded_corner_login"
+            android:id="@+id/uploadBtn"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
